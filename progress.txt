@@ -1,0 +1,6 @@
+HAAC Todo
+1. 3 stages of compression
+2. Try making the first stage all black
+
+
+

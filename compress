@@ -1,0 +1,12 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+cd $DIR/haar_knn/
+# /usr/local/bin/python3.7 "$DIR/haar_knn/main.py"
+python3 "$DIR/haar_knn/main.py"
+
+cd $DIR/MergedHAACCompressor/
+# /Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -jar "$DIR/ImageResizer/out/artifacts/ImageResizer_jar/ImageResizer.jar"
+# java -Dfile.encoding=UTF-8 -jar "$DIR/ImageResizer/out/artifacts/ImageResizer_jar/ImageResizer.jar"
+java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51743:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/roshanprabhakar/Programming/FacialHAAC/MergedHAACCompressor/out/production/MergedHAACCompressor Main
