@@ -9,7 +9,9 @@ public class Compression2 extends ImageCompressor {
 
     @Override
     public void compress() {
-        compressed = new BufferedImage(image.getWidth(), image.getHeight(), BufferedImage.TYPE_3BYTE_BGR);
+        ImageCompressor compressor = new Compression1(image, 3);
+        compressor.compress();
+        this.compressed = compressor.getCompressed();
     }
 
     @Override
