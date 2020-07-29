@@ -1,0 +1,3 @@
+[submodule "LandmarkDetection"]
+	path = LandmarkDetection
+	url = https://github.com/roshanprabhakar/LandmarkDetection.git
