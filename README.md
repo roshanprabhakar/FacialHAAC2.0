@@ -5,7 +5,7 @@ Installation
 ---
 Do a recursive download
 ```
-git clone --recursive https://github.com/roshanprabhakar/LDPC-SandboxLibrary
+git clone --recursive https://github.com/roshanprabhakar/facial-haac-2.git
 ```
 
 Do a refactoring: LandmarkDetection -> haar_knn
