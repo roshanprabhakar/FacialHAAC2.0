@@ -57,52 +57,50 @@ public class Main {
                 copySectionFixedLocs(face, out, new int[]{0, 0, face.getWidth(), face.getHeight()}, compressedFaces.get(face));
             }
 
-            display(out);
             writeImage(out, previousDirectory() + "Out/processed" +
                     new File(previousDirectory() + "Out/").listFiles().length);
 
 //            copySectionFixedLocs(original, original, new int[]{0,0,40,40}, new int[]{500,400});
 //            display(original, "original");
 
-            Thread.sleep(1000000);
             System.exit(0);
-
-            System.out.println("FACES: ");
-            for (int[] face : FACES) {
-                System.out.println(Arrays.toString(face));
-            }
-            System.out.println("FEATURES");
-            for (int[] feature : FEATURES) {
-                System.out.println(Arrays.toString(feature));
-            }
-
-            for (int[] face : FACES) {
-                ImageCompressor compressor = new Compression1(original.getSubimage(face[0], face[1], face[2], face[3]), GLOBAL_I);
-                compressor.compress();
-                BufferedImage compressed = compressor.getCompressed();
-                //add in all lines
-            }
-
-
-            ImageCompressor compressor = new Compression1(original, 7);
-            compressor.compress();
-
-            //copy landmarks over
-            BufferedImage processed = compressor.getCompressed();
-
-            int featureI = 0;
-            int faceI = 0;
-            for (int[] feature : FEATURES) {
-                featureI++;
-                copySection(original, processed, feature, FACES.get(faceI));
-                if (featureI % 4 == 0) {
-                    faceI++;
-                }
-            }
-
-            //write image to disk
-            writeImage(processed, previousDirectory() + "Out/processed" +
-                    new File(previousDirectory() + "Out/").listFiles().length);
+//
+//            System.out.println("FACES: ");
+//            for (int[] face : FACES) {
+//                System.out.println(Arrays.toString(face));
+//            }
+//            System.out.println("FEATURES");
+//            for (int[] feature : FEATURES) {
+//                System.out.println(Arrays.toString(feature));
+//            }
+//
+//            for (int[] face : FACES) {
+//                ImageCompressor compressor = new Compression1(original.getSubimage(face[0], face[1], face[2], face[3]), GLOBAL_I);
+//                compressor.compress();
+//                BufferedImage compressed = compressor.getCompressed();
+//                //add in all lines
+//            }
+//
+//
+//            ImageCompressor compressor = new Compression1(original, 7);
+//            compressor.compress();
+//
+//            //copy landmarks over
+//            BufferedImage processed = compressor.getCompressed();
+//
+//            int featureI = 0;
+//            int faceI = 0;
+//            for (int[] feature : FEATURES) {
+//                featureI++;
+//                copySection(original, processed, feature, FACES.get(faceI));
+//                if (featureI % 4 == 0) {
+//                    faceI++;
+//                }
+//            }
+//
+//            //write image to disk
+//            writeImage(processed, previousDirectory() + "Out/processed" +
+//                    new File(previousDirectory() + "Out/").listFiles().length);
 
         } catch (
                 IOException e) {

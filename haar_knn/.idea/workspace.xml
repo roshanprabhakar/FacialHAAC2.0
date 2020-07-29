@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3077b3c7-1362-4184-98ac-08f88a37f747" name="Default Changelist" comment="" />
+    <list default="true" id="3077b3c7-1362-4184-98ac-08f88a37f747" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Images/original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Images/original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../In/original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../In/original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergedHAACCompressor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergedHAACCompressor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergedHAACCompressor/input.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../MergedHAACCompressor/input.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergedHAACCompressor/out/production/MergedHAACCompressor/Compression1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MergedHAACCompressor/out/production/MergedHAACCompressor/Compression1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergedHAACCompressor/out/production/MergedHAACCompressor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MergedHAACCompressor/out/production/MergedHAACCompressor/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergedHAACCompressor/output.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../MergedHAACCompressor/output.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergedHAACCompressor/src/Compression1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MergedHAACCompressor/src/Compression1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergedHAACCompressor/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MergedHAACCompressor/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Out/processed1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Out/processed1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Out/processed3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Out/processed3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compress" beforeDir="false" afterPath="$PROJECT_DIR$/../compress" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../progress.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +49,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1Rda6Hxv44ofg9jXC5nHLbR7Xjy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -164,6 +178,9 @@
       <workItem from="1570045837649" duration="434000" />
       <workItem from="1570648463582" duration="141000" />
       <workItem from="1571197803549" duration="4256000" />
+      <workItem from="1571978984854" duration="37000" />
+      <workItem from="1572065982662" duration="49000" />
+      <workItem from="1588230270816" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="moved all roi to FEATURES list">
       <created>1562957528463</created>
@@ -177,6 +194,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="moved all roi to FEATURES list" />

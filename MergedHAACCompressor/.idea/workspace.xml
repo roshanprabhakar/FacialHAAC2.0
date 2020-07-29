@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea7a093-76b2-47cc-9c31-c1be8440c543" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Images/original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Images/original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../In/original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../In/original.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MergedHAACCompressor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MergedHAACCompressor/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compression2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compression2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Compression1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compression1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Out/processed1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Out/processed1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Out/processed3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Out/processed3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compress" beforeDir="false" afterPath="$PROJECT_DIR$/../compress" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haar_knn/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../haar_knn/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haar_knn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../haar_knn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../haar_knn/features.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../haar_knn/features.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../progress.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +100,10 @@
       <workItem from="1570682651922" duration="60000" />
       <workItem from="1571197825240" duration="68000" />
       <workItem from="1571197943721" duration="8651000" />
-      <workItem from="1571288545526" duration="1650000" />
+      <workItem from="1571288545526" duration="1964000" />
+      <workItem from="1571374955787" duration="961000" />
+      <workItem from="1572159408987" duration="17000" />
+      <workItem from="1574448750008" duration="1590000" />
     </task>
     <servers />
   </component>
@@ -102,7 +115,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

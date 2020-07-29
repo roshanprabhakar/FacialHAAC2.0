@@ -45,6 +45,7 @@ public class Compression1 extends ImageCompressor {
             clearClusters();
             assignPointsToClusters();
             recalculateCenters();
+            System.out.println(rep);
         }
         finalizeClusters();
     }
