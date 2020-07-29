@@ -1,6 +1,16 @@
 # Facial HAAC 2.0
 An image compressor for the general image compression of facial images. The core compression algorithm exploits the relative unimportance of color identity regions within an image. The compression occurs through a generation of k color space clusters where each cluster depicts a color in the compressed representation. This allows for multiple levels of compression (higher k indicates lower compression rates). Regions defined by the haar_knn module (eyes, nose, mouth) are preserved while the general face is compressed to some k, the rest of the image is compressed to some n lower than k.
 
+Installation
+---
+Do a recursive download
+```
+git clone --recursive https://github.com/roshanprabhakar/LDPC-SandboxLibrary
+```
+
+Do a refactoring: LandmarkDetection -> haar_knn
+
+
 Module Mapping
 ---
 Documented Output: 
