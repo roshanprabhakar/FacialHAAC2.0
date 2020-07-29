@@ -9,9 +9,6 @@ Collection of outputs, both using pixelation background compression and color cl
 FileAnalyzer: 
 A program to rate the effectiveness of the general algorithm by human standards
 
-ImageResizer: 
-The background compressor used in Facial HAAC 2. Implements compression through a clustering of all color points present in an image.
-
 MergedHAACCompressor:
 A sub repo containing both the HAAC 1 compression program, as well as the newer clustering general compression algorithm
 
