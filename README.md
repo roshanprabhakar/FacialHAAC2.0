@@ -9,6 +9,7 @@ git clone --recursive https://github.com/roshanprabhakar/facial-haac-2.git
 ```
 
 Do a refactoring: LandmarkDetection -> haar_knn
+Build individual java projects (FileAnalyzer, MergedHAACCompressor)
 
 
 Module Mapping
